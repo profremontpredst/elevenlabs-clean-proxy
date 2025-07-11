@@ -2,11 +2,12 @@ import express from "express";
 import cors from "cors";
 import fetch from "node-fetch";
 import dotenv from "dotenv";
+
 dotenv.config();
 
 const ELEVEN_KEY = process.env.ELEVEN_KEY;
-const VOICE_ID = "EXAVITQu4vr4xnSDxMaL";
-const MODEL_ID = "eleven_flash_v2_5";
+const VOICE_ID = "EXAVITQu4vr4xnSDxMaL"; // Замени на нужный, если хочешь
+const MODEL_ID = "eleven_flash_v2_5"; //  модель
 
 const app = express();
 app.use(cors());
