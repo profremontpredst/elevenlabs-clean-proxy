@@ -1,5 +1,5 @@
 {
-  "name": "elevenlabs-render-proxy",
+  "name": "elevenlabs-clean-proxy",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
